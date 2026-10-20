@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            background-color: red;
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="box">click me</button>
+    <script>
+        document.getElementById("box").addEventListener("click", function() {
+              document.getElementById("box").innerText = "Welcome";
+              document.getElementById("box").style.backgroundColor = "green";
+              document.getElementById("box").style.fontSize="20px";
+        });
+        
+    </script>
+</body>
+</html>

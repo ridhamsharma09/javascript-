@@ -40,10 +40,12 @@ console.log("10" + 20);     // 1020
 console.log(10 + "20");     // 1020
 console.log("10" + "20");   // 1020
 
-console.log(10+20+"hi");
+console.log(10+20+"hi"); //"30hi"
 
-console.log("hi"+10+10);
+console.log("hi"+10+10); //"hi1010"
+
 // que practice
+
 let text = "  hello JavaScript World  ";
 let word = "JavaScript";
 
